@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Janjuree&dis');
+
+:root {
+    --bg-color: #222831;
+    --primary-color: #DDDDDD;
+    --secundary-color: #F05454;
+    --font: Bai Jamjuree;
+}
+body
+ background-color: var(--bg-color);
+ color: var(primary-color);
+ font-family: var(--font);
+ height: 100vh;
+ margin: 0;
