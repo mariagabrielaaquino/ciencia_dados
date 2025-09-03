@@ -14,9 +14,9 @@ async function quantidadeUsuario() {
             }
         ]
 
-        const grafico = document.createElement('div')
-        grafico.className = 'grafico'
-        document.getElementById('graficos-container').appendChild(grafico)
+        const graficos = document.createElement('div')
+        graficos.className = 'grafico'
+        document.getElementById('graficos-container').appendChild(graficos)
         Plotly.newPlot(grafico, data)
     } catch (error) {
         console.error("Erro ao buscar dados:", error)
